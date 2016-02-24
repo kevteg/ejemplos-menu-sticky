@@ -1,0 +1,50 @@
+ <!DOCTYPE html>
+<html>
+<head>
+<title>Sticky Menu</title>
+
+	<link rel="stylesheet" href="styles.css">
+
+</head>
+<body class="Body">
+	<header class="Header">
+		<!-- Clase "Sticky" que tendra las propiedades importantes y el id "Navigation" para interactuar en el Javascript-->
+		<nav id="Navigation" class="Sticky">
+			<ul>
+				<li class="Opcion"><a href="#">OPCION 1</a></li>
+				<li class="Opcion"> <a href="#">OPCION 2</a></li>
+			</ul>
+
+		</nav>
+
+	</header>
+
+	<!--Elementos de llenado para mostrar el efecto deseado-->
+	<div class="Espacio"></div>
+	<div class="Contenido">Lorep Ipsum</div>
+	
+	<!--Importe de la biblioteca "jquery" luego de haberla descargado-->
+	<script src="jquery.js"></script>
+
+<script type="text/javascript">
+
+	//La función de jquery que detecta un scroll en la ventana y acciona otra función
+  	$(window).scroll(Animar);
+
+  	function Animar(){
+  		//Si el documento detecta un scroll en la parte de arriba mayor a 50
+  	 if ($(document).scrollTop()> 50) {
+  	 	//Agrego la clase "Animacion" que posee caracteristicas diferentes visualmente a la "Sticky" inicial
+  	  $('#Navigation').addClass('Animacion'); 
+  	 }
+  	 else{
+  	 	//Si vuelvo al inicio del documento (haciendo scroll) remuevo la clase de "Animacion" y automaticamente recupera la clase inicial o por defecto
+   	  $('#Navigation').removeClass('Animacion');
+		}
+	}
+
+</script>
+
+
+</body>
+</html> 

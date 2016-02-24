@@ -1,0 +1,196 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+ 	<link rel="stylesheet" type="text/css" href="css/normalize.css"></link>
+ 	<link rel="stylesheet" type="text/css" href="fonts/flaticon.css"></link>
+ 	<link rel="stylesheet" type="text/css" href="css/style.css"></link>
+    <title>Dog Club</title>
+  </head>
+  <!-- Agregamos jquery y el plugin descargado desde stickyjs.com-->
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+  <script type="text/javascript" src="jquery.sticky.js"></script>
+  <!-- Aqui convertimos el elemento en sticky
+  El elemento que será sticky es el que se envia al inicio
+  de la declaración, en este caso el header-->
+  <script>
+    $(window).load(function(){
+      $("header").sticky({ topSpacing: 0 });
+    });
+  </script>
+  <!-- Para aprender más sobre el plugin ve a su repositorio en github: https://github.com/garand/sticky-->
+  <body>
+  <div class="page-sizer">
+    <!-- Contenido de la pagina -->
+    <header>
+		<div class="logo">
+			<h1><span class="left block">Dog</span><span class="right block"> Club</span></h1>
+		</div>
+	</header>
+    <article>
+	  <section class="join-now">
+		<div class="content">
+			<h2>What do you do with your dog?</h2>
+			<ul class="items">
+				<li><div class="label">Breed Conformation</div></li>
+				<li><div class="label">Therapy Dog Volunteers</div></li>
+				<li><div class="label">Professional Dog Training</div></li>
+			</ul>
+			<div class="buttons">
+				<a href="#" class="red-button">Join Now!</a>
+			</div>
+		</div>
+	  </section>
+	  <section class="dog-do-speak">
+			<h2>Dogs do Speak, but to those who know how to listen</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a enim sit amet ex aliquam vehicula. Sed lobortis velit ipsum, id elementum ante tincidunt eget. Pellentesque bibendum urna a purus dignissim placerat. Etiam sed tempus mauris. Praesent semper lacinia ultrices. Fusce congue diam et diam hendrerit, ac tristique est lacinia. Cras ullamcorper tellus sed mi tristique venenatis. Cras interdum nisi vel justo congue interdum. Aliquam eget dapibus dui, non imperdiet justo. Maecenas sit amet odio vel est commodo malesuada. Curabitur nunc tellus, laoreet ac sollicitudin et, ullamcorper a nunc. Maecenas semper, lorem non ultricies porta, dolor tortor euismod ligula, vitae vehicula lectus neque sit amet erat. Vivamus nunc tellus, sodales in venenatis vel, scelerisque quis purus. Sed tincidunt vel diam at cursus. Aliquam hendrerit diam placerat arcu porta, a rutrum augue tincidunt.</p>
+	  </section>
+	  <section class="welcome">
+		<div class="left">
+		<div class="content"
+			<h2>Welcome!</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a enim sit amet ex aliquam vehicula. Sed lobortis velit ipsum, id elementum ante tincidunt eget.</p>
+			<p>Pellentesque bibendum urna a purus dignissim placerat. Etiam sed tempus mauris. Praesent semper lacinia ultrices.</p>
+			<p>Fusce congue diam et diam hendrerit, ac tristique est lacinia. Cras ullamcorper tellus sed mi tristique venenatis.</p>
+		</div>
+		</div>
+		<div class="right">
+			<img class="img-18" src="images/page-1_img18.jpg" alt="Dos Perros" />
+			<img class="img-19" src="images/page-1_img19.jpg" alt="Perro en tono de grises" />
+		</div><div class="clear-fix"></div>
+	  </section>
+	  <section class="best">
+	  	<div class="content">
+	  		<div class="title">
+	  			<span class="big-title">Best</span>
+	  			<span class="small">Kennel Club, Inc. Shows</span>
+	  		</div>
+	  		<div class="timer">
+	  			<div class="box-time">
+	  				<span class="number red">00</span>
+	  				<span class="label">Hours</span>
+	  			</div>
+	  			<div class="box-time">
+	  				<span class="number red">00</span>
+	  				<span class="label">Minutes</span>
+	  			</div>
+	  			<div class="box-time">
+	  				<span class="number red">00</span>
+	  				<span class="label">Seconds</span>
+	  			</div>
+	  		</div>
+	  	</div>
+	  </section>
+	  <section class="news-and-events">
+	  	<h2>News &amp; Events</h2>
+	  	<div class="items">
+	  		<div class="column">
+	  			<img src="images/page-1_img01.jpg" alt="First Image" />
+	  			<div class="content">
+	  				<div class="date">
+	  					<span class="day">12</span>
+	  					<span class="month">March</span>
+	  				</div>
+	  				<h3>Sertas Byras Letyas</h3>
+	  				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a enim sit amet ex aliquam vehicula. Sed lobortis velit ipsum, id elementum ante tincidunt eget.</p>
+	  			</div>
+	  		</div>
+	  		<div class="column">
+	  			<img src="images/page-1_img02.jpg" alt="Second Image" />
+	  			<div class="content">
+	  				<div class="date">
+	  					<span class="day">14</span>
+	  					<span class="month">March</span>
+	  				</div>
+	  				<h3>Bertseras Miuas</h3>
+	  				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a enim sit amet ex aliquam vehicula. Sed lobortis velit ipsum, id elementum ante tincidunt eget.</p>
+	  			</div>
+	  		</div>
+	  		<div class="column">
+	  			<img src="images/page-1_img03.jpg" alt="Third Image" />
+	  			<div class="content">
+	  				<div class="date">
+	  					<span class="day">16</span>
+	  					<span class="month">March</span>
+	  				</div>
+	  				<h3>Olertys Cytras</h3>
+	  				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a enim sit amet ex aliquam vehicula. Sed lobortis velit ipsum, id elementum ante tincidunt eget.</p>
+	  			</div>
+	  		</div>
+	  	</div>
+	  </section>
+	  <section class="photo-gallery">
+	  		<h2>Photo Gallery</h2>
+	  		<ul class="gallery">
+	  			<li><img src="images/page-1_img04.jpg" alt="Dog 1" /></li>
+	  			<li><img src="images/page-1_img05.jpg" alt="Dog 2" /></li>
+	  			<li><img src="images/page-1_img06.jpg" alt="Dog 3" /></li>
+	  			<li><img src="images/page-1_img07.jpg" alt="Dog 4" /></li>
+	  			<li><img src="images/page-1_img08.jpg" alt="Dog 5" /></li>
+	  			<li><img src="images/page-1_img09.jpg" alt="Dog 6" /></li>
+	  			<li><img src="images/page-1_img10.jpg" alt="Dog 7" /></li>
+	  			<li><img src="images/page-1_img11.jpg" alt="Dog 8" /></li>
+	  			<li><img src="images/page-1_img12.jpg" alt="Dog 9" /></li>
+	  			<li><img src="images/page-1_img13.jpg" alt="Dog 10" /></li>
+	  		</ul>
+	  </section>
+	  <section class="popular-articles">
+	  		<h2>Popular Articles</h2>
+	  		<div class="content">
+	  			<div class="column">
+	  				<img src="images/page-1_img14.jpg" alt="Article 1"/>
+	  				<h3>Deliuyas Nilas Kertasa</h3>
+	  				<p>Aliquam eget dapibus dui, non imperdiet justo. Maecenas sit amet odio vel est commodo malesuada. Curabitur nunc tellus, laoreet ac sollicitudin et, ullamcorper a nunc. Maecenas semper, lorem non ultricies porta, dolor tortor euismod ligula, vitae vehicula lectus neque sit amet erat.</p>
+	  			</div>
+	  			<div class="column">
+	  				<img src="images/page-1_img15.jpg" alt="Article 2"/>
+	  				<h3>Muytas Lertyuas</h3>
+	  				<p>Aliquam eget dapibus dui, non imperdiet justo. Maecenas sit amet odio vel est commodo malesuada. Curabitur nunc tellus, laoreet ac sollicitudin et, ullamcorper a nunc. Maecenas semper, lorem non ultricies porta, dolor tortor euismod ligula, vitae vehicula lectus neque sit amet erat.</p>
+	  			</div>
+	  			<div class="column">
+	  				<img src="images/page-1_img16.jpg" alt="Article 3"/>
+	  				<h3>Kertyeda Bytrasa</h3>
+	  				<p>Aliquam eget dapibus dui, non imperdiet justo. Maecenas sit amet odio vel est commodo malesuada. Curabitur nunc tellus, laoreet ac sollicitudin et, ullamcorper a nunc. Maecenas semper, lorem non ultricies porta, dolor tortor euismod ligula, vitae vehicula lectus neque sit amet erat.</p>
+	  			</div>
+	  			<div class="column">
+	  				<img src="images/page-1_img17.jpg" alt="Article 4"/>
+	  				<h3>Ferrode Veroiyas</h3>
+	  				<p>Aliquam eget dapibus dui, non imperdiet justo. Maecenas sit amet odio vel est commodo malesuada. Curabitur nunc tellus, laoreet ac sollicitudin et, ullamcorper a nunc. Maecenas semper, lorem non ultricies porta, dolor tortor euismod ligula, vitae vehicula lectus neque sit amet erat.</p>
+	  			</div>
+	  		</div>
+	  </section>
+	  <section class="ugrent-project">
+	  		<div class="content">
+	  			<h2>Ugrent Project</h2>
+	  			<h3>Muytas Lertyuas Deliuyas Nilas Kertasa</h3>
+	  			<a href="#" class="button red">Learn More</a>
+	  		</div>
+	  </section>
+    </article>
+    <footer>
+		<div class="contact">
+			<div class="title">
+				<h2>Contacts</h2>
+			</div>
+			<div class="address">
+				<p>28 jackson Blvd Ste 151<br/>Chicago<br/>IL 60604-2340</p>
+				<p><a href="mailto:info@demolink.org">info@demolink.org</a></p>
+			</div>
+			<div class="social-icons">
+				<ul>
+					<li><a class="" href="#"><span class="facebook flaticon-facebook55"></span></a></li>
+					<li><a class="" href="#"><span class="google flaticon-google116"></span></a></li>
+					<li><a class="" href="#"><span class="rss">Rss</span></a></li>
+					<li><a class="" href="#"><span class="pinterest">Pinterest</span></a></li>
+					<li><a class="" href="#"><span class="linkedIn">LinkedIn</span></a></li>
+				</ul>
+			</div>
+			<div class="info">
+				<p>&copy; 2016 Dog Club All Rights Reserved</p>
+			</div>
+		</div>
+		<div class="map">
+		</div>
+    </footer>
+    </div>
+  </body>
+</html>

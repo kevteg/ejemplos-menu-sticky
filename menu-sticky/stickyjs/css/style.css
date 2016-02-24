@@ -1,0 +1,192 @@
+/**HOLI
+#nombre_id{
+	propiedad:valor;
+}
+tag#nombre_id {
+	propiedad:valor;
+}
+
+.nombre_class{
+	propiedad:valor;
+}
+tag.nombre_class{
+	propiedad:valor;
+}
+
+HERENCIA (la que no me dejaron)
+
+.class_abuelo .class_padre .class_hijo {
+	propiedad:valor;
+}
+
+Ojito  - ELEMENTO QUE TENGA LAS TRES CLASES
+
+.class1.class2.class3 {
+	propiedad:valor;
+}
+
+**/
+
+@font-face {
+    font-family: 'Ubuntu-light';
+    src: url('../fonts/ubuntu-light.eot');
+    src: url('../fonts/ubuntu-light.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/ubuntu-light.woff') format('woff'),
+         url('../fonts/ubuntu-light.ttf') format('truetype'),
+         url('../fonts/ubuntu-light.svg#Ubuntu-light') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Ubuntu-bold';
+    src: url('../fonts/ubuntu-bold.eot');
+    src: url('../fonts/ubuntu-bold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/ubuntu-bold.woff') format('woff'),
+         url('../fonts/ubuntu-bold.ttf') format('truetype'),
+         url('../fonts/ubuntu-bold.svg#ubuntu-bold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+	font-size: 16px;
+	font-family: "Ubuntu-light"
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Ubuntu-bold"
+}
+
+
+.page-sizer{
+	width: 980px;
+	margin: 0 auto; /**Elementos en bloque, el espacio desde donde comienza el tag hacia afuera MARGIN,BORDER,PADDING**/
+}
+
+header {
+	text-align: center;
+  background: white;
+}
+
+header .logo {
+	background:url('../images/logo.png') no-repeat center;
+	background-size: 2.5%;
+}
+
+header .logo h1 .block{
+	display: inline-block;
+}
+
+header .logo h1 .left{
+	margin-right: 10px;
+}
+
+
+header .logo h1 .right{
+	margin-left: 10px;
+}
+
+article {
+
+}
+
+article section.join-now {
+	background: url('../images/parallax1.jpg') no-repeat center;
+	padding: 100px 60px;
+	background-size: 100%;
+}
+
+article section.join-now .content h2{
+	font-size: 25px;
+}
+
+article section.join-now .content ul.items{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	width: 350px;
+}
+
+article section.join-now .content ul.items li{
+	margin: 5px;
+	border-left: 5px #fff solid;
+}
+
+article section.join-now .content ul.items li .label{
+	background-color: rgba(255,255,255,0.5);
+	padding: 15px 18px;
+	font-size: 17px;
+	text-transform: uppercase;
+}
+
+article section.join-now .content .buttons a.red-button{
+	/**a es una etiqueta inline**/
+	display: block;
+	background-color: #FA575C;
+	margin: 5px;
+	width: 150px;
+	padding: 10px 0px;
+	text-align: center;
+	color: #fff;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+article section.join-now .content .buttons a.red-button:hover{
+background-color: #F9393F;
+text-decoration: underline;
+}
+
+article section.dog-do-speak {
+	background-color: green;
+}
+
+article section.welcome {
+	background: url('../images/bg-img.jpg') no-repeat center;
+	background-size: 130%;
+}
+
+article section.welcome .left, article section.welcome .right{
+	width: 48%;
+}
+
+article section.welcome .left{
+	float:left;
+}
+
+article section.welcome .right{
+	float: right;
+	position: relative;
+}
+
+.clear-fix{
+	clear:both;
+}
+
+article section.welcome .left .content{
+	padding: 50px 100px;
+}
+
+article section.welcome .right img {
+	display: block;
+	border-radius: 155px;
+	position: absolute;
+}
+
+article section.welcome .right .img-18{
+	width: 300px;
+	top: 30px;
+	right: 40px;
+
+}
+
+article section.welcome .right .img-19{
+	width: 160px;
+	top: 250px;
+	right: 15px;
+	border: 10px #fff solid;
+}
+
+footer .contact .social-icons ul li a span {
+	text-decoration: none;
+}
